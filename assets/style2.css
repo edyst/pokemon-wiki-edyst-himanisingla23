@@ -247,10 +247,10 @@
     color: white;
     font-size: 17px;
 } 
-@media(max-width:1000px){
+@media(max-width:900px){
  #pokemon-games{
     width:100%;
-    height:95vh;
+    height:170vh;
     text-align:center;
 }
 .poke-games-card {
@@ -260,9 +260,145 @@
   } 
   .see-more-button{
       margin-left:25%;
-      display: table;
+      display: inline;
   }
 }
+
+/* section-14 */
+.designer-photo {
+    border-radius: 50%;
+    margin-left:20%;
+    text-align:center;
+    height: 25vh;
+    padding:2%;
+}
+.designer-name {
+    font-size: 28px;
+    margin: 0;
+    color:#fff;
+}
+.sub-heading {
+    margin:0;
+    color:#fff;
+    font-size:2.5vh;
+    word-spacing: 2px;
+    padding-top:2%;
+    padding-bottom: 3%;
+    text-decoration: underline;
+}
+.designer-about {
+    text-align: justify;
+    margin-right: 20px;
+    font-size:2vh;
+    color:#fff;
+}
+.des-1 , .des-2, .des-3{
+    display: grid;
+    grid-template-rows: repeat(3,0.2fr);
+    text-align: center;
+    justify-content: center;
+    color:#fff;
+}
+/* section-15 */
+#logos {
+    text-align: center;
+}
+
+#main-logos {
+    width: 87%;
+    height: 230px;
+    display: flex;
+    margin: 0 auto;
+  }
+  
+#main-logos div {
+    flex: 1;
+  }
+
+.logo-div-logos {
+    height: 7vh;
+    margin: 0 auto;
+}
+
+.logo-heading {
+    font-size: 7vh;
+    color: grey;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.logo-sub-heading {
+    padding: 2%;
+    font-size:2.5vh;
+    font-weight:100;
+}
+    /* section-16 */
+#know-more-button {
+    width:100%;
+    height:30vh;
+    background-color: #4992ca;
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+    
+.want-to-know-more {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 2%;
+}
+    
+.know-more-button {
+     background-color: transparent;
+     border: 3px solid white;
+     color: white;
+     margin: 3%;
+     width: 25vw;
+     height: 8vh;
+}
+
+/* section-18 */
+footer {
+    width:100%;
+    background-color: #00121b;
+}
+
+#main-footer {
+    padding:2%;
+    width: 80%;
+    height: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+  
+#main-footer div {
+    flex: 1;
+}
+ul{
+    list-style-type: none;
+}  
+
+#main-footer ul li{
+    padding:1.5%;
+} 
+#main-footer ul  li a {
+    
+    text-decoration: none;
+    color: white;
+}
+@media(max-width:900px){
+    footer{
+        width:100%;
+        height:25vh;
+    }
+} 
+
+
+
 
 
 

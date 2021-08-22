@@ -13,37 +13,41 @@ body{
 header{
     position:relative;
     margin:5px auto;
-    height:50px;
-    padding:10px;
+    height:69px;
+    padding:5px;
     background:#fff;
     box-sizing:border-box;
     border-radius:4px;
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
 } 
-.logo
-{
+.logo-edyst
+{   
     height:30px;
     width:100px;
-    float:left;
+    padding:0.5%;
+    float:left; 
 }
 nav ul .flag{
     display:flex;
     width:10px;
     height:10px;
-    padding:10px;
+    padding:5px;
 }
 nav ul{
-    margin:0;
+    /* width:30%; */
+    margin:15px;
     padding:0;
     display:flex;
     float:right;
     color:#424242;
+    margin-right:2%;
 }
 
 nav ul li a {
-    display:block;
-    margin:5px 0;
-    padding:5px 20px;
+    /* width:60%; */
+    display:inline;
+    margin:4px 0;
+    padding:4px 20px;
     color:#424242;
     font-weight: 500;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -54,6 +58,7 @@ nav ul li a.active{
     background-color: tomato;
     color:#fff;
     width:45px;
+    margin-right:5%;
     text-align:center;
 
 }
@@ -173,12 +178,12 @@ nav ul li a.active{
 }
 
 /* monster section */
-#monster{
-    height:85vh;
+#monster , #designers-section{
+    height:75vh;
     width: 100%;
     background-color: #4992ca;
 }
-#section-2 h2{
+.section-2 h2{
     color:#fff;
     font-size:5vh;
     font-weight:400;
@@ -186,15 +191,15 @@ nav ul li a.active{
     text-align:center;
     padding: 10px;
 }
-#section-2 p{
+.section-2 p{
     color:#fff;
     font-size:2vh;
     text-align:center;
     line-height:24px;
     white-space: pre-line;
 }
-#pokemon-types{
-    margin:50px;
+.pokemon-types{
+    margin:30px;
     height:40vh;
     display:grid;
     column-gap: 15px;
@@ -205,7 +210,7 @@ nav ul li a.active{
 }
 #type-water, #type-fire, #type-leaf{
     display: grid;
-    row-gap: 30px;;
+    row-gap: 20px;;
     grid-template-rows: repeat(3,0.2fr);
     text-align: center;
     justify-content: center;
@@ -215,12 +220,12 @@ nav ul li a.active{
     font-size:5vh;
 }
 
- @media(max-width:900px){
-    #monster {
-        height:160vh;
+ @media(max-width:1100px){
+    #monster , #designers-section {
+        height:180vh;
         width:100%;
     }
-    #pokemon-types {
+    .pokemon-types {
         /* grid-template-rows: repeat(3,0.12fr); */
         grid-template-columns: 1fr;
         grid-gap:20px; 
@@ -336,10 +341,6 @@ nav ul li a.active{
        column-gap:8%;
       
    }
-
-   
-
-
 
  }
 
