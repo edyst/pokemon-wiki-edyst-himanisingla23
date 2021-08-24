@@ -239,10 +239,10 @@
 
 .poke-games-card-column {
     float:right;
-    width: 65vh;
+    width: 35vh;
     height: 47vh;
     padding-top:3%;
-    margin-right:45px;
+    margin-right:20vh;
 } 
 .poke-game-title {
     font-size:3vh;
